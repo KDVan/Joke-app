@@ -12,6 +12,6 @@
     <br />  
     <a href="https://github.com/KDVan/Joke-app/issues">Report Bug</a>
     ·
-    <a href="https://github.com/KDVan/Joke-app/blob/main/LICENSE">Licence</a>
+    <a href="https://github.com/KDVan/Joke-app/blob/release/LICENSE">Licence</a>
   </p>
 
