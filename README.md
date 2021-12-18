@@ -13,5 +13,7 @@
     <a href="https://github.com/KDVan/Joke-app/issues">Report Bug</a>
     ·
     <a href="https://github.com/KDVan/Joke-app/blob/release/LICENSE">Licence</a>
+  <br/>
+    <img src="https://github.com/KDVan/Joke-app/blob/develop/.github/README.gif" width="320" height="450" alt="Gif"> 
   </p>
 
