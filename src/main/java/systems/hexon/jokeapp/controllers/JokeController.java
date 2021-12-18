@@ -2,6 +2,7 @@ package systems.hexon.jokeapp.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
 import systems.hexon.jokeapp.services.JokeService;
 
 /**********************************************************************************************************************\
@@ -25,6 +26,7 @@ public class JokeController {
         this.jokeService = jokeService;
     }
 
+    @RequestMapping({"/", ""})
     public String showJoke(Model model){
         model.addAttribute("joke", jokeService.getJoke());
 
