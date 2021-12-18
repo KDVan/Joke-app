@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <link th:href="@{/styles/css/index.css}" rel="stylesheet" />
+    <title>Random Joke Application</title>
+</head>
+<body>
+<div class="container">
+    <div class="card">
+        <div class="imgBx">
+            <img src="https://drive.google.com/uc?export=view&id=1JEMFibKDbPu5tMlf_bR2laataxFWMiFP" alt="logo"/>
+        </div>
+        <div class="contentBx">
+            <h2>Random Joke</h2>
+            <div class="size">
+                <h3 th:text="${joke}">
+                    <a href=".">Tell me a joke!</a>
+                </h3>
+            </div>
+            <a href=".">New Joke</a>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
